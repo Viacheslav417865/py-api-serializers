@@ -1,6 +1,6 @@
 from typing import Type
 from django.db.models import QuerySet
-import serializers
+from rest_framework import serializers
 from rest_framework import viewsets
 from cinema.models import (
     Movie,
